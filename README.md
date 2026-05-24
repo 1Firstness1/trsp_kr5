@@ -33,9 +33,9 @@ pytest tests/test_tasks.py -v
 
 ```
 =========================== test session starts ===========================
-platform win32 -- Python 3.12.10, pytest-8.3.4, pluggy-1.6.0 -- C:\ПУТЬ\SADT-KR-5\1\.venv\Scripts\python.exe
+platform win32 -- Python 3.12.10, pytest-8.3.4, pluggy-1.6.0 -- C:\ПУТЬ\tsrp_kr5\1\.venv\Scripts\python.exe
 cachedir: .pytest_cache
-rootdir: C:\ПУТЬ\SADT-KR-5\1
+rootdir: C:\ПУТЬ\tsrp_kr5\1
 plugins: anyio-4.13.0
 collected 9 items
 
@@ -83,9 +83,9 @@ pytest tests/ -v
 
 ```bash
 =========================== test session starts ===========================
-platform win32 -- Python 3.12.10, pytest-8.3.4, pluggy-1.6.0 -- C:\ПУТЬ\SADT-KR-5\2\.venv\Scripts\python.exe
+platform win32 -- Python 3.12.10, pytest-8.3.4, pluggy-1.6.0 -- C:\ПУТЬ\tsrp_kr5\2\.venv\Scripts\python.exe
 cachedir: .pytest_cache
-rootdir: C:\ПУТЬ\SADT-KR-5\2
+rootdir: C:\ПУТЬ\tsrp_kr5\2
 plugins: anyio-4.13.0
 collected 10 items
 
@@ -121,7 +121,7 @@ curl "http://localhost:8000/tasks/" -H "X-User-Id: 10"
 ### Ожидаемые логи сервера
 
 ```bash
-time="2026-05-20T13:33:14+03:00" level=warning msg="C:\\ПУТЬ\\SADT-KR-5\\2\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+time="2026-05-20T13:33:14+03:00" level=warning msg="C:\\ПУТЬ\\tsrp_kr5\\2\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
 [+] up 2/2
  ✔ Network 2_default Created                                            0.0s
  ✔ Container 2-api-1 Created                                            0.1s
@@ -171,9 +171,9 @@ pytest tests/test_websocket.py -v
 
 ```
 =========================== test session starts ===========================
-platform win32 -- Python 3.12.10, pytest-8.3.4, pluggy-1.6.0 -- C:\ПУТЬ\SADT-KR-5\3\.venv\Scripts\python.exe
+platform win32 -- Python 3.12.10, pytest-8.3.4, pluggy-1.6.0 -- C:\ПУТЬ\tsrp_kr5\3\.venv\Scripts\python.exe
 cachedir: .pytest_cache
-rootdir: C:\ПУТЬ\SADT-KR-5\3
+rootdir: C:\ПУТЬ\tsrp_kr5\3
 plugins: anyio-4.13.0
 collected 10 items
 
@@ -219,9 +219,9 @@ pytest tests/ -v
 
 ```
 =========================== test session starts ===========================
-platform win32 -- Python 3.12.10, pytest-8.3.4, pluggy-1.6.0 -- C:\ПУТЬ\SADT-KR-5\4\.venv\Scripts\python.exe
+platform win32 -- Python 3.12.10, pytest-8.3.4, pluggy-1.6.0 -- C:\ПУТЬ\tsrp_kr5\4\.venv\Scripts\python.exe
 cachedir: .pytest_cache
-rootdir: C:\ПУТЬ\SADT-KR-5\4
+rootdir: C:\ПУТЬ\tsrp_kr5\4
 plugins: anyio-4.13.0
 collected 16 items
 
